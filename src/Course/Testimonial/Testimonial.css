@@ -1,0 +1,78 @@
+.testimonial {
+  margin: 5rem 0;
+}
+
+.upper-testimonial {
+  position: relative;
+  background-color: rgba(247, 250, 255, 1);
+  margin: 0 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 0;
+}
+.upper-testimonial .bubble {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+}
+.upper-testimonial .dots {
+  position: absolute;
+  bottom: -5rem;
+  right: -6rem;
+}
+.upper-testimonial .face {
+  width: 10rem;
+}
+.upper-testimonial .comment {
+  text-align: center;
+  font-size: clamp(1rem, 1.5rem, 1.7rem);
+  margin: 0 13%;
+}
+.upper-testimonial .customer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.lower-testimonial {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+/*  */
+@media (max-width: 900px) {
+  .upper-testimonial .bubble {
+    width: 8rem;
+  }
+}
+@media (max-width: 600px) {
+  .upper-testimonial {
+    margin: 0 0;
+    gap: 1.5rem;
+    overflow: hidden;
+  }
+  .upper-testimonial .bubble {
+    width: 5rem;
+  }
+  .upper-testimonial .dots {
+    bottom: -5rem;
+    right: -4rem;
+    width: 12rem;
+  }
+  .upper-testimonial .face {
+    width: 10rem;
+  }
+  .upper-testimonial .comment {
+    margin: 0 8%;
+  }
+  .lower-testimonial {
+    margin-top: 6rem;
+    gap: 2rem;
+  }
+}

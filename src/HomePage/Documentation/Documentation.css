@@ -1,0 +1,232 @@
+.documentation {
+  margin-top: 14rem;
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.doc-content {
+  margin: 2rem 18rem;
+  padding: 4rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7edfb;
+  border-radius: 10px;
+}
+.doc-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+.doc-text .heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.doc-text .para {
+  color: #677788;
+  font-size: 1.5rem;
+  width: 35rem;
+}
+
+.doc-text .button {
+  background-color: #377dff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+.doc-text .button a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.doc-content .doc-img img {
+  width: 65rem;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* Snippet */
+.snippet-content {
+  margin: 2rem 18rem;
+  padding: 4rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.snippet-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+.snippet-text .heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.snippet-text .para {
+  color: #677788;
+  font-size: 1.5rem;
+  width: 50rem;
+}
+
+.snippet-text .button {
+  background-color: #377dff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+.snippet-text .button a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.snippet-content .snippet-img img {
+  width: 70rem;
+  border-radius: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+@media (max-width: 1200px) {
+  .doc-content {
+    margin: 2rem 10rem;
+    padding: 3rem 4rem;
+  }
+  .doc-content .doc-img img {
+    width: 35rem;
+  }
+  .snippet-content {
+    margin: 2rem 10rem;
+    padding: 3rem 4rem;
+  }
+  .snippet-content .snippet-img img {
+    width: 35rem;
+  }
+}
+@media (max-width: 1000px) {
+  .doc-text .para {
+    font-size: 1.2rem;
+    width: 45rem;
+  }
+  .snippet-text .para {
+    font-size: 1.2rem;
+    width: 45rem;
+  }
+  .doc-text .para {
+    font-size: 1.1rem;
+    width: 28rem;
+  }
+}
+@media (max-width: 800px) {
+  .documentation {
+    gap: 1rem;
+    margin-top: 10rem;
+  }
+  .doc-content {
+    margin: 2rem 3rem;
+    padding: 2rem 2rem;
+  }
+  .doc-text .para {
+    font-size: 1rem;
+    width: 25rem;
+  }
+  .doc-text .button a {
+    font-size: 0.8rem;
+  }
+  .doc-content .doc-img img {
+    width: 30rem;
+  }
+  .snippet-content {
+    margin: 2rem 3rem;
+    padding: 2rem 2rem;
+  }
+  .snippet-text .para {
+    font-size: 1rem;
+    width: 25rem;
+  }
+  .snippet-content .doc-img img {
+    width: 30rem;
+  }
+}
+@media (max-width: 650px) {
+  .documentation {
+    margin-top: 7rem;
+  }
+  .doc-content {
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+  }
+  .doc-text .heading {
+    font-size: 2rem;
+  }
+  .doc-text .para {
+    font-size: 0.8rem;
+    width: 20rem;
+  }
+  .doc-text .button a {
+    font-size: 0.8rem;
+  }
+  .doc-content .doc-img img {
+    width: 24rem;
+  }
+  .snippet-content {
+    margin: 1rem 2rem;
+    padding: 2rem 1rem;
+  }
+  .snippet-text .para {
+    font-size: 0.8rem;
+    width: 25rem;
+  }
+  .snippet-content .snippet-img img {
+    width: 25rem;
+  }
+  .snippet-text .button a {
+    font-size: 0.8rem;
+  }
+}
+/* @media (max-width: 500px) {
+  .documentation {
+    margin-top: 7rem;
+  }
+  .doc-content {
+    margin: 1rem 2rem;
+    padding: 2rem 1rem;
+  }
+  .doc-text .para {
+    font-size: 1rem;
+    width: 25rem;
+  }
+  .doc-text .button a {
+    font-size: 1rem;
+  }
+  .doc-content .doc-img img {
+    width: 20rem;
+  }
+  .snippet-content {
+    margin: 1rem 2rem;
+    padding: 2rem 1rem;
+  }
+  .snippet-text .para {
+    font-size: 1rem;
+    width: 25rem;
+  }
+  .snippet-content .snippet-img img {
+    width: 30rem;
+  }
+  .snippet-text .button a {
+    font-size: 1rem;
+  }
+} */

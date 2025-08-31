@@ -1,0 +1,108 @@
+.programs {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.program-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.program-content .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8rem;
+}
+.program-content .heading h1 {
+  width: 43vw;
+  font-size: 2.5rem;
+}
+.program-content .heading a {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #377dff;
+}
+.program {
+  margin-top: 10rem;
+  padding-left: 8rem;
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+  overflow: hidden;
+}
+.program-cards {
+  min-height: 20rem;
+  min-width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem 1.5rem;
+  color: white;
+  border-radius: 10px;
+}
+.program-cards .program-1 h1 {
+  font-size: 2rem;
+}
+.program-cards .program-1 .tool {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.program-cards .read-now {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+@media (max-width: 1200px) {
+  .program {
+    margin-top: 3rem;
+    padding-left: 6rem;
+  }
+  .program-cards {
+    min-height: 15rem;
+    min-width: 12rem;
+    padding: 1rem 1rem;
+  }
+  .program-cards .program-1 h1 {
+    font-size: 1.3rem;
+  }
+  .program-cards .program-1 .tool {
+    font-size: 1.2rem;
+  }
+  .program-cards .read-now {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .program-content .heading {
+    padding: 0 2rem;
+    /* background-color: red; */
+  }
+  .program-content .heading h1 {
+    width: 43vw;
+    font-size: 1.2rem;
+  }
+  .program-content .heading a {
+    font-size: 1.1rem;
+  }
+  .program {
+    margin-top: 2rem;
+    padding-left: 4rem;
+  }
+  .program-cards {
+    min-height: 10rem;
+    min-width: 8rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .program-cards .program-1 h1 {
+    font-size: 1rem;
+  }
+  .program-cards .program-1 .tool {
+    font-size: 0.6rem;
+  }
+  .program-cards .read-now {
+    font-size: 1rem;
+  }
+}
