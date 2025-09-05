@@ -6,8 +6,6 @@ import Navbar from "./HomePage/NavBar/Navbar";
 import CoursesNavbar from "./Course/Navbar/Navbar";
 import RealEstate from "./RealStateHome/RealEstate";
 
-// import Footer from './HomePage/Footer/Footer'
-
 function Layout() {
   const location = useLocation();
 
@@ -16,7 +14,7 @@ function Layout() {
       {/* 👇 Conditional Navbar */}
       {location.pathname === "/" && <Navbar />}
       {location.pathname === "/courses" && <CoursesNavbar />}
-      {location.pathname === "/real-state" && <RealEstate/>}
+      {location.pathname === "/real-estate" && <RealEstate/>}
 
       {/* 👇 Routes */}
       <Routes>
