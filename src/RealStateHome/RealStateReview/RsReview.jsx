@@ -22,7 +22,7 @@ const RsReview = () => {
               of the community rather than a visitor. "
             </p>
             <div className="user-profile">
-              <img src={profile} alt="" className="profile"/>
+              <img src={profile} alt="profileImg" className="profile"/>
               <div className="user-name">
                 <h1 className="name">Christina Kray</h1>
                 <p className="customer">Happy customer</p>
@@ -30,7 +30,7 @@ const RsReview = () => {
             </div>
           </div>
           <div className="right">
-            <img src={review_bg} alt="" />
+            <img src={review_bg}  />
           </div>
         </div>
         <div className="reviews">
@@ -38,7 +38,7 @@ const RsReview = () => {
           <p className="rating">4.85 / 5.0 <small> (2,594)</small></p>
           <div className="btn">
             <p>Read more reviews </p>
-            <img src={right_arr} alt="" />
+            <img src={right_arr} alt="click button" />
           </div>
         </div>
       </div>
