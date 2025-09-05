@@ -1,6 +1,5 @@
 import React from "react";
-import "./Browseproperties.css";
-import bp_1 from "../../assets/RealStateImages/browse-property-1.jpg";
+import "./BrowseProperties.css";
 import { browse_property } from "../../RealEstate";
 
 const Browseproperties = () => {
