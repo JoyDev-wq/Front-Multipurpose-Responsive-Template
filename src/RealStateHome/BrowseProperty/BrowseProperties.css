@@ -1,0 +1,135 @@
+.browse-property {
+  padding: 6rem 0;
+}
+.bp-header {
+  text-align: center;
+}
+.bp-header .para {
+  color: #8c919c;
+  width: 40%;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+}
+.browse-location {
+  margin-top: 3rem;
+}
+.browse-location .browse-btn {
+  width: max-content;
+  margin: 0 auto;
+  padding: 0.5rem 0.5rem;
+  background-color: #d8dce3;
+  display: flex;
+  border-radius: 5px;
+}
+.browse-btn .sale,
+.rent {
+  padding: 0.5rem;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 1.3rem;
+
+}
+.browse-location .locations {
+  margin-top: 3rem;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  position: relative;
+}
+.location-box img {
+  height: 20rem;
+  border-radius: 10px;
+}
+.locations .location-box {
+  width: 30rem;
+  height: 20rem;
+  position: relative;
+}
+.location-box .box-detail {
+  top: 0;
+  height: 20rem;
+  padding: 2rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+.box-detail .badge {
+  background-color: white;
+  color: black;
+  width: max-content;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+.location-box .dark-bg {
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  z-index: 0;
+  opacity: 0.3;
+  border-radius: 10px;
+}
+@media (max-width: 1900px) {
+  .browse-location .locations {
+    padding: 0 6%;
+  }
+}
+@media (max-width: 1800px) {
+  .browse-location .locations {
+    justify-content: space-around;
+    padding: 0 5%;
+  }
+}
+@media (max-width: 1100px) {
+  .location-box img {
+    height: 15rem;
+  }
+  .bp-header .para {
+    width: 70%;
+  }
+  .browse-location .locations {
+    justify-content: space-evenly;
+    padding: 0 6%;
+  }
+  .locations .location-box {
+    width: 20rem;
+    height: 15rem;
+  }
+  .location-box img {
+    height: 15rem;
+    width: 20rem;
+  }
+  .location-box .box-detail {
+    height: 15rem;
+  }
+  .box-detail .badge {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 500px) {
+  .browse-location .locations {
+    padding: 0 5%;
+  }
+  .bp-header {
+    font-size: 0.8rem;
+    padding: 0 2rem;
+  }
+  .bp-header .para {
+    width: 80%;
+    font-size: 0.8rem;
+  }
+  .location-box img {
+    height: 15rem;
+  }
+  .locations .location-box {
+    width: 22.5rem;
+    height: 15rem;
+  }
+  .location-box .box-detail {
+    height: 15rem;
+  }
+}

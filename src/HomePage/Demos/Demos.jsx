@@ -6,7 +6,7 @@ import demo_img_4 from "../../assets/demo-img-4.jpg";
 import demo_img_5 from "../../assets/demo-img-5.jpg";
 import right_arrow from "../../assets/arrow-out-up-right-stroke-square.png";
 import dots from '../../assets/dots-horizontal-rounded.png'
-import { useNavigate } from "react-router";
+import { Navigate, useNavigate } from "react-router";
 
 const Demos = () => {
   const navigate = useNavigate()
@@ -104,7 +104,7 @@ const Demos = () => {
           <p className="para">
             Please your visitors with eye-catching and exciting real estate listings. Different options and settings to manage your site.
           </p>
-          <div className="button">
+          <div onClick={()=>navigate("./real-estate")} className="button ">
             <p>Preview Real State Demo </p>
             <img src={right_arrow} alt="" />
           </div>

@@ -1,3 +1,6 @@
+.footer {
+  background-color: rgb(33, 50, 91);
+}
 .upper-footer {
   display: flex;
   justify-content: center;
@@ -84,6 +87,47 @@
 }
 .links .Company ul li:hover {
   cursor: pointer;
+}
+
+/* Home page footer */
+.footer .divider {
+  height: 1px;
+  background: transparent;
+  background-color: #677788;
+  margin: 0 10%;
+}
+.sub-footer {
+  padding: 3rem 5rem;
+  background-color: rgb(33, 50, 91);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+.upper-sub-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.upper-sub-footer .privacy-policy {
+  display: flex;
+  width: 100%;
+}
+.upper-sub-footer .privacy-policy span {
+  margin: 0 1rem;
+  color: #677788;
+  font-weight: 700;
+}
+.sub-footer .copyright {
+  color: #677788;
+  text-align: center;
+  width: 100%;
+}
+.sub-footer .info {
+  text-align: center;
+  color: #677788;
 }
 
 @media (max-width: 1000px) {

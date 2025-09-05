@@ -1,0 +1,172 @@
+.rs-review {
+  padding: 2rem 10%;
+}
+
+.rs-header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.rs-header .header {
+  font-size: 4rem;
+  font-weight: 400;
+}
+.rs-header .para {
+  margin-top: 1.5rem;
+  color: #8795a4;
+  font-size: 1.5rem;
+}
+.rs-review .rs-content {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+.rs-content .left {
+  width: 25rem;
+  height: 30rem;
+  padding: 2rem;
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.left .quote {
+  width: 6rem;
+}
+.left .para {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  border-left: 4px solid #ccd2d8;
+  color: #7b8a9a;
+}
+.left .user-profile {
+  display: flex;
+  align-items: center;
+}
+.user-profile .profile {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+  border-radius: 100%;
+}
+.user-profile .user-name .customer {
+  color: #8795a4;
+}
+.rs-content .right {
+  position: absolute;
+  top: -3rem;
+  z-index: -1;
+  right: 0;
+}
+.rs-content .right img {
+  height: 35rem;
+}
+.rs-content .reviews {
+  text-align: center;
+}
+.reviews .rating {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.reviews .rating small {
+  color: #697787;
+}
+.reviews .btn {
+  margin: 0 auto;
+  width: max-content;
+  border-radius: 5px;
+  color: white;
+  background-color: #377dff;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+.reviews .btn img {
+  width: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  .rs-review {
+    padding: 2rem 5%;
+  }
+  .rs-review .rs-content {
+    width: 80%;
+  }
+  .rs-content .right {
+    position: absolute;
+    right: -5rem;
+  }
+}
+@media (max-width: 800px) {
+  .rs-content .left {
+    width: 25rem;
+    height: 23rem;
+  }
+  .rs-review .rs-content {
+    width: 90%;
+    margin: 0 1%;
+  }
+  .left .quote {
+    width: 3rem;
+  }
+  .left .para {
+    font-size: 1.3rem;
+  }
+  .user-profile .profile {
+    width: 3rem;
+    height: 3em;
+  }
+  .user-profile .name {
+    font-size: 1.5rem;
+  }
+  .rs-content .right img {
+    height: 25rem;
+  }
+  .rs-content .right {
+    top: -1rem;
+  }
+}
+@media (max-width: 600px) {
+  .rs-review {
+    padding: 2rem 2rem;
+  }
+  .rs-header .header {
+    font-size: 2rem;
+  }
+  .rs-review .rs-content {
+    width: 100%;
+  }
+  .rs-header .para {
+    font-size: 1rem;
+  }
+  .rs-content .left {
+    width: 25rem;
+    height: 23rem;
+    margin: 0 auto;
+  }
+  .rs-header {
+    margin-bottom: 3rem;
+  }
+  .rs-content .right {
+    top: 20rem;
+    left: 1.5rem;
+  }
+  .rs-content .right img {
+    height: 30rem;
+    width: 30rem;
+  }
+  .rs-content .reviews {
+    margin-top: 30rem;
+  }
+  .reviews h1 {
+    font-size: 1.3rem;
+  }
+  .reviews .rating {
+    font-size: 1.3rem;
+  }
+  .reviews .btn {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,81 @@
+.properties {
+  width: 100%;
+  padding: 5% 10%;
+  /* background-color: rgba(55, 125, 255, 0.1); */
+}
+.properties .view-more {
+  text-align: center;
+  color: #377dff;
+  font-size: 1.3rem;
+  border: 1px solid #c7cdd2;
+  padding: 1rem;
+  border-radius: 5px;
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+.properties .view-more:hover{
+    background-color: #377dff;
+    color: white;
+}
+.properties .view-more img {
+  width: 1rem;
+}
+.properties .heading {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+}
+.properties .card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.properties .card {
+  width: 25rem;
+}
+.properties .card .img {
+  width: 25rem;
+  height: 15rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-content .card-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.card-content .card-title .price {
+  color: #377dff;
+}
+.card-content .card-types {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  color: #99a4b0;
+}
+.card-types .sml-img {
+  width: 1.7rem;
+}
+.card-types .bed,
+.bath,
+.sqft {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .properties {
+    padding: 5% 10%;
+  }
+  .properties .view-more {
+    margin-top: 4rem;
+  }
+}
