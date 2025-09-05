@@ -16,7 +16,7 @@ function Layout() {
       {/* 👇 Conditional Navbar */}
       {location.pathname === "/" && <Navbar />}
       {location.pathname === "/courses" && <CoursesNavbar />}
-      {location.pathname === "/courses" && <RealEstate/>}
+      {location.pathname === "/real-state" && <RealEstate/>}
 
       {/* 👇 Routes */}
       <Routes>
