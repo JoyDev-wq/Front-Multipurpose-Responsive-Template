@@ -1,7 +1,7 @@
 .tools {
   width: 100%;
   margin: 5rem 0;
-  padding: 0 16rem;
+  /* padding: 0 16rem; */
   display: flex;
   gap: 5rem;
   flex-direction: column;
@@ -13,7 +13,6 @@
     transparent,
     rgba(231, 234, 243, 0.5)
   );
-  /* background-color: red; */
 }
 .tool-text {
   margin: 0 auto;
@@ -24,7 +23,8 @@
   align-items: center;
 }
 .tool-text h1 {
-  font-size: 3.5rem;
+  text-align: center;
+  font-size: 3rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
@@ -34,7 +34,7 @@
   width: 50rem;
 }
 .code {
-  width: 50rem;
+  width: 45rem;
   margin: 0 auto;
 }
 .code-space {
@@ -182,18 +182,34 @@
   }
 }
 
-/* @media (max-width: 480px){
+@media (max-width: 480px){
+  .tools {
+    padding: 0 0;
+  }
   .tool-text h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .tool-text p {
-    font-size: 1.1rem;
-    width: 25rem;
+    font-size: 0.6rem;
+    width: 18rem;
   }
+  .code {
+    width: 20rem;
+  }
+  .code-space div {
+  gap: 2rem;
+  line-height: 1.5rem;
+}
   .code .code-lm {
+    font-size: 0.7rem;
+  }
+  .tool-btn .img img {
+    width: 6rem;
+  }
+  .tool-btn .btn {
+    padding: 1rem 2rem;
+  }
+  .tool-btn .btn a {
     font-size: 1rem;
   }
-    .code {
-    width: 25rem;
-  }
-} */
+}

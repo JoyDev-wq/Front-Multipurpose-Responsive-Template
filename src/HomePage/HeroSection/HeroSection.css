@@ -4,7 +4,6 @@
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-
 .hero-text {
   width: 100%;
   text-align: center;
@@ -24,7 +23,6 @@
   padding: 0 2rem;
   color: #677788;
 }
-
 .hero-img .img1 {
   width: 100%;
   margin-top: 2rem;
@@ -33,7 +31,6 @@
   width: 100%;
   display: none;
 }
-
 @media (max-width: 850px) {
   .hero-img .img1 {
     width: 100%;
@@ -42,8 +39,6 @@
   .hero-text .heading {
     width: 30rem;
     font-size: 3rem;
-    /* padding: 0 2rem; */
-    /* text-align: left; */
   }
   .hero-img .img2 {
     margin-top: 2rem;
@@ -58,11 +53,23 @@
     padding: 0 0;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .hero-text .heading {
     font-size: 1.4rem;
+    width: 25rem;
+
   }
   .hero-text .para {
     font-size: 0.8rem;
+  }
+}
+@media (max-width: 400px) {
+  .hero-text .heading {
+    font-size: 1rem;
+    width: 20rem;
+  }
+  .hero-text .para {
+    font-size: 0.8rem;
+    width: 20rem;
   }
 }

@@ -18,11 +18,9 @@
   display: flex;
   gap: 2rem;
 }
-
 .text-section {
   width: 48%;
 }
-
 .text-section .pages {
   display: inline-flex;
   border: 1px solid black;
@@ -35,7 +33,6 @@
   margin-bottom: 1.5rem;
   font-weight: 600;
 }
-
 .text-section .para {
   color: #677788;
   margin-bottom: 1.5rem;
@@ -56,20 +53,13 @@
   box-shadow: rgba(56, 56, 150, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-
 .text-section .button p {
   font-size: 1.3rem;
   color: white;
-
 }
-/* .text-section .button p a{
-  text-decoration: none;
-  color: white;
-} */
 .text-section .button img {
   width: 1.2rem;
 }
-
 .img-section {
   width: 48%;
   position: relative;
@@ -78,7 +68,6 @@
   position: relative;
   z-index: 4;
 }
-
 .img-section .site {
   width: 100%;
   display: flex;
@@ -98,7 +87,6 @@
   background-color: #e7eaf3;
   padding: 0 3rem;
 }
-
 .img-section img {
   width: 28rem;
   margin-left: 3rem;
@@ -107,7 +95,6 @@
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-
 .img-section .shadow {
   position: absolute;
   top: 5rem;
@@ -140,7 +127,6 @@
     font-size: 1rem;
   }
 }
-
 @media (max-width: 1000px) {
   .demo {
     margin: 0 0;
@@ -256,7 +242,7 @@
   .text-section .button p {
     font-size: 1rem;
   }
-    .img-section img {
+  .img-section img {
     width: 20rem;
   }
   .img-section .site img {
@@ -271,7 +257,7 @@
     height: 12rem;
     width: 20rem;
   }
-    .img-section .shadowSecond {
+  .img-section .shadowSecond {
     top: 4rem;
     height: 12rem;
     width: 20rem;
@@ -280,5 +266,49 @@
     top: 4rem;
     height: 12rem;
     width: 20rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .text-section .para {
+    width: 18rem;
+    font-size: 0.9rem;
+  }
+  .demo-heading p {
+    width: 20rem;
+    font-size: 1.1rem;
+  }
+  .img-section img {
+    width: 16rem;
+    margin-left: 1rem;
+  }
+  .img-section .site {
+    gap: 1rem;
+  }
+  .img-section .site img {
+    margin-left: 0;
+  }
+  .img-section .site p {
+    margin-left: 0;
+    font-size: 0.5rem;
+  }
+  .img-section .shadow {
+    top: 3rem;
+    left: -1rem;
+    height: 10rem;
+    width: 14rem;
+  }
+  .img-section .shadowSecond {
+    top: 3rem;
+    left: -1rem;
+
+    height: 10rem;
+    width: 14rem;
+  }
+  .img-section .shadowThird {
+    top: 3rem;
+    left: -1rem;
+    height: 10rem;
+    width: 14rem;
   }
 }
