@@ -82,14 +82,9 @@
     margin-top: 4rem;
   }
 }
-@media(max-width:800px){
-  .properties {
-    margin-top: 36rem;
-  }
-}
 @media (max-width: 600px) {
   .properties {
-    margin-top: 35rem;
+    margin-top: 5rem;
     width: 100%;
     padding: 5% 10%;
   }
@@ -97,17 +92,17 @@
 @media (max-width: 400px) {
   .properties {
     padding: 5% 2%;
-    margin-top: 28rem;
+    margin-top: 2rem;
   }
   .properties .card {
-    width: 20rem;
+    width: 18rem;
   }
   .properties .heading {
   margin-bottom: 3rem;
   font-size: 1.5rem;
 }
   .properties .card .img {
-    width: 20rem;
+    width: 18rem;
     height: 12rem;
     margin-bottom: 1rem;
   }

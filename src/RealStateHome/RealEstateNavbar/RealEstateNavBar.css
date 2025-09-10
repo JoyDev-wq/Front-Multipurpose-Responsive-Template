@@ -1,13 +1,13 @@
 .real-state {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 4rem;
-  background-color: rgba(55, 125, 255, 0.1);
-  z-index: 10;
-  /* background-color: rgb(230, 11, 11); */
+  padding: 1rem 4rem;
+  background-color: white;
+  z-index: 20;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .real-state .rs-links ul {
   display: flex;
@@ -55,9 +55,11 @@
   }
 }
 @media (max-width: 800px) {
+  .real-state .rs-logo img {
+    width: 6rem;
+  }
   .real-state {
-    padding: 2rem 2rem;
-    background-color: white;
+    padding: 1rem 2rem;
   }
   .rs-links ul .off {
     display: none;
@@ -67,9 +69,6 @@
   }
 }
 @media (max-width: 400px) {
-  .real-state {
-    padding: 2rem 1rem;
-  }
   .real-state .rs-logo img {
     width: 7rem;
   }
