@@ -82,6 +82,11 @@
     margin-top: 4rem;
   }
 }
+@media(max-width:800px){
+  .properties {
+    margin-top: 36rem;
+  }
+}
 @media (max-width: 600px) {
   .properties {
     margin-top: 35rem;

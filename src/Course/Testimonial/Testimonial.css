@@ -72,6 +72,8 @@
   }
   .upper-testimonial .comment {
     margin: 0 8%;
+  font-size: 1.2rem;
+
   }
   .lower-testimonial {
     margin-top: 6rem;
@@ -112,6 +114,7 @@
   .lower-testimonial {
     margin-top: 6rem;
     gap: 1rem;
+    padding: 1rem;
   }
   .lower-testimonial img{
     width: 5rem;

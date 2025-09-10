@@ -29,7 +29,7 @@
 }
 .course-footer-content .header {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .course-footer-content .query {
   font-size: 1.3rem;
@@ -158,6 +158,9 @@
     width: 50rem;
     z-index: 1;
   }
+  .course-footer-content .header {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 850px) {
   .course-footer .course-lower-footer {
@@ -187,6 +190,12 @@
   }
   .add-links .links {
     gap: 2rem;
+  }
+    .course-footer-content {
+    width: 90%;
+  }
+    .course-footer-content .header {
+    font-size: 1.2rem;
   }
   .course-footer-content .query {
     font-size: 1rem;
