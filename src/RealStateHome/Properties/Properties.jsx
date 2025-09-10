@@ -3,8 +3,8 @@ import "./Properties.css";
 import shower from "../../assets/RealStateImages/shower-svgrepo-com.svg";
 import measure from "../../assets/RealStateImages/square-ruler-scale-tool-education-measurement-svgrepo-com.svg";
 import bed from "../../assets/RealStateImages/bed-svgrepo-com.svg";
-import right from "../../assets/RealStateImages/right-arrow-svgrepo-com-3.svg"
-import { properties} from "../../RealEstate";
+import right from "../../assets/RealStateImages/right-arrow-svgrepo-com-3.svg";
+import { properties } from "../../RealEstate";
 
 const Properties = () => {
   return (
@@ -16,7 +16,7 @@ const Properties = () => {
             <div className="card">
               <img src={data.img} alt="" className="img" />
               <div className="card-content">
-                <p>FOR SALE</p>
+                <p className="for-sale">FOR SALE</p>
                 <div className="card-title">
                   <p className="title">{data.title}</p>
                   <p className="price">{data.price}</p>
@@ -40,8 +40,9 @@ const Properties = () => {
           </div>
         ))}
       </div>
-        <p className="view-more">View all properties for sale <img src={right} alt="" /></p>
-
+      <p className="view-more">
+        View all properties for sale <img src={right} alt="" />
+      </p>
     </div>
   );
 };

@@ -17,19 +17,20 @@ const RealEstateNavBar = () => {
       </div>
       <div className="rs-links">
         <ul>
-          <li className="home">Home</li>
-          <li>
+          <li className="off home">Home</li>
+          <li className="off">
             Listings <img src={down_arrow} alt="" />
           </li>
-          <li>Property Overview</li>
-          <li className="btn">Start Selling</li>
+          <li className="off">Property Overview</li>
+          <li className="off btn">Start Selling</li>
           <li className="menu" onClick={() => showMwenuBar()}>
             <img src={menu} alt="" />
           </li>
         </ul>
+
         {/* <ul className={`closedMenu ${showMenu ? "show" : ""}`}>
           {/* <li className='close' onClick={()=>showMwenuBar()}><img src={close} alt="" /></li> */}
-          {/* <li>
+        {/* <li>
             <a href="">Landing</a>
           </li>
           <li>
@@ -51,7 +52,6 @@ const RealEstateNavBar = () => {
             <button>Buy now</button>
           </li>
         </ul> } */}
-
       </div>
     </div>
   );

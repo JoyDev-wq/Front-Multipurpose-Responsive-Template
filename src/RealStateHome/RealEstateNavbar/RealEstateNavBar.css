@@ -16,7 +16,7 @@
   color: #677788;
   display: flex;
   align-items: center;
-  cursor:pointer;
+  cursor: pointer;
 }
 .rs-links ul li.home {
   color: #377dff;
@@ -33,9 +33,28 @@
   padding: 1rem 1rem;
   border-radius: 7px;
 }
+.rs-links ul .menu{
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid rgb(199, 191, 191);
+  display: none;
+}
+@media (max-width: 600px) {
+  .real-state {
+    padding: 2rem 2rem;
+    background-color: white;
+  }
+  .rs-links ul .off {
+    display: none;
+  }
+  .rs-links ul .menu{
+  display: flex;
+}
+}
+
 /* .rs-links .closedMenu {
   /* note */
-  /* position: fixed;
+/* position: fixed;
   top: 70px;
   left: 50%;
   transform: translateX(-50%);
@@ -51,7 +70,7 @@
 } */
 /* .rs-links .closedMenu.show {
   /* note */
-  /* display: block;
+/* display: block;
 }
 
 .rs-links .closedMenu li {

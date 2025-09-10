@@ -14,9 +14,9 @@
   margin: 0 auto;
   margin-top: 8rem;
 }
-.properties .view-more:hover{
-    background-color: #377dff;
-    color: white;
+.properties .view-more:hover {
+  background-color: #377dff;
+  color: white;
 }
 .properties .view-more img {
   width: 1rem;
@@ -44,7 +44,10 @@
   margin-bottom: 2rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
+.card-content .for-sale {
+  font-size: 1.2rem;
+  color: #99a4b0;
+}
 .card-content .card-title {
   display: flex;
   justify-content: space-between;
@@ -77,5 +80,49 @@
   }
   .properties .view-more {
     margin-top: 4rem;
+  }
+}
+@media (max-width: 600px) {
+  .properties {
+    margin-top: 35rem;
+    width: 100%;
+    padding: 5% 10%;
+  }
+}
+@media (max-width: 400px) {
+  .properties {
+    padding: 5% 2%;
+    margin-top: 28rem;
+  }
+  .properties .card {
+    width: 20rem;
+  }
+  .properties .heading {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}
+  .properties .card .img {
+    width: 20rem;
+    height: 12rem;
+    margin-bottom: 1rem;
+  }
+  .card-content .card-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .properties .card-container {
+    gap: 3rem;
+  }
+  .card-content .for-sale {
+    font-size: 0.8rem;
+  }
+  .card-types .sml-img {
+    width: 1.3rem;
+  }
+  .properties .view-more {
+    font-size: 1rem;
+  }
+  .properties .view-more img{
+    width: 1rem;
   }
 }

@@ -166,3 +166,8 @@
     text-align: left;
   }
 }
+@media (max-width: 400px){
+  .course-footer {
+  margin-top: 2rem;
+}
+}
