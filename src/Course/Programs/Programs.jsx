@@ -6,7 +6,7 @@ import { programs } from "../../Programs";
 const Programs = () => {
   return (
     <div className="programs">
-      <img src={bg_img} alt="" />
+      <img src={bg_img} alt=""  className="bg-img"/>
       <div className="program-content">
         <div className="heading">
           <h1>Check out our newest and most popular programs</h1>

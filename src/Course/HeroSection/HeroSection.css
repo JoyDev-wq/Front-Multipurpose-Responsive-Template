@@ -1,5 +1,5 @@
 /* .hero-section{
-
+background-color: red;
 } */
 
 .hero-content {
@@ -34,7 +34,7 @@
   align-items: center;
   gap: 1rem;
 }
-.hero-left .click-btn .img {
+.click-btn .play .img {
   width: 5rem;
   height: 5rem;
   border-radius: 100%;
@@ -44,25 +44,32 @@
   box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
   transition: transform 0.3s ease;
 }
-.hero-left .click-btn .img:hover {
+.click-btn .play .img:hover {
   transform: scale(1.1);
 }
-.hero-left .click-btn .img img {
+.click-btn .img img {
   width: 1rem;
 }
-.hero-left .click-btn button {
+.hero-left .click-btn .play {
+  width: 100%;
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+}
+.click-btn button {
+  width: 40%;
   color: white;
   padding: 1rem 2rem;
   background-color: #377dff;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   border: none;
   border-radius: 10px;
 }
-.hero-left .click-btn p {
+.click-btn p {
   color: black;
   font-size: 1.3rem;
 }
-.hero-left .click-btn button:hover {
+.click-btn button:hover {
   background-color: #2f6ad9;
 }
 @media (max-width: 1000px) {
@@ -75,18 +82,17 @@
     font-size: 1.2rem;
   }
   .hero-left .click-btn button {
-  padding: 1rem 1rem;
-  font-size: 1em;
-  border-radius: 5px;
-}
-.hero-left .click-btn .img {
-  width: 3rem;
-  height: 3rem;
-}
-.hero-left .click-btn p {
-
-  font-size: 1rem;
-}
+    padding: 1rem 1rem;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  .hero-left .click-btn .img {
+    width: 3rem;
+    height: 3rem;
+  }
+  .hero-left .click-btn p {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 800px) {
   .hero-content {
@@ -103,5 +109,31 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+  }
+}
+@media (max-width: 400px) {
+  .hero-content {
+    padding: 0 3%;
+  }
+  .hero-left .click-btn {
+    flex-direction: column;
+  }
+  .hero-content .hero-right {
+    width: 50%;
+  }
+  .hero-left {
+    width: 100%;
+    gap: 1rem;
+  }
+  .hero-left .click-btn button {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+  .click-btn .play .img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .click-btn .play p {
+    font-size: 1.2rem;
   }
 }

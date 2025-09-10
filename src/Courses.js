@@ -32,7 +32,7 @@ export const CourseDetails = [
     lessions: "8 lessions",
     duration: "7h 59m",
     price:"129.99",
-    discount:"119.99"
+    discount:"$119.99"
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ export const CourseDetails = [
     lessions: "25 lessions",
     duration: "17h 46m",
     price:"169.99",
-    discount:"129.99"
+    discount:"$129.99"
   },
   {
     id: 4,

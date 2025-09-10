@@ -29,7 +29,7 @@
 }
 .course-footer-content .header {
   text-align: center;
-  font-size: clamp(1.3rem, 3vw, 4rem);
+  font-size: 4rem;
 }
 .course-footer-content .query {
   font-size: 1.3rem;
@@ -201,6 +201,42 @@
     justify-content: flex-start;
     align-items: flex-start;
   }
+  .sub-footer .copyright {
+    text-align: left;
+  }
+  .sub-footer .info {
+    text-align: left;
+  }
+}
+@media (max-width: 400px) {
+  .course-footer .course-lower-footer {
+    padding: 2rem 1rem;
+  }
+  .course-footer .course-upper-footer {
+    height: 15rem;
+  }
+  .add-links .links {
+    gap: 2rem;
+  }
+  .course-footer-content {
+    width: 90%;
+  }
+  .course-footer-content .header {
+    font-size: 1.1rem;
+  }
+  .course-footer-content .query {
+    font-size: 0.8rem;
+  }
+  .course-footer-content .explore {
+    font-size: 0.8rem;
+  }
+  .sub-footer {
+    padding: 3rem 1rem;
+  }
+  /* .upper-sub-footer .privacy-policy {
+    justify-content: flex-start;
+    align-items: flex-start;
+  } */
   .sub-footer .copyright {
     text-align: left;
   }

@@ -6,7 +6,7 @@ const ContactPage = () => {
   return (
     <div className="contact-page">
       <div className="contact-page-left">
-        <h1 className="heading">
+        <h1 className="upper-heading">
           Thousands of experts around the world ready to help you.
         </h1>
         <p className="para">
@@ -14,7 +14,7 @@ const ContactPage = () => {
           their destination for employee learning.
         </p>
         <div className="learn-more">
-          <h3 className="heading">Learn more about:</h3>
+          <h3 className="lower-heading">Learn more about:</h3>
           <ul className="">
             <li>
               <img src={right} alt="" />
@@ -42,23 +42,23 @@ const ContactPage = () => {
         <form className="form" action="">
           <div className="input first-name">
             <label htmlFor="">First Name</label>
-            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="first-name" name="First name"/>
           </div>
           <div className="input last-name">
             <label htmlFor="">Last Name</label>
-            <input type="text" placeholder="Last Name" />
+            <input type="text" placeholder="Last Name" name="last-name"/>
           </div>
           <div className="input email">
             <label htmlFor="">Email Address</label>
-            <input type="email" placeholder="email@site.com" />
+            <input type="email" placeholder="email@site.com" name="email"/>
           </div>
           <div className="input password">
             <label htmlFor="">Password</label>
-            <input type="password" placeholder="8+ characters required" />
+            <input type="password" placeholder="8+ characters required" name="password"/>
           </div>
           <div className="input con-password">
             <label htmlFor="">Confirm Password</label>
-            <input type="password" placeholder="8+ characters required" />
+            <input type="password" placeholder="8+ characters required" name="con-password"/>
           </div>
           <div className="sign-up">
             <p>

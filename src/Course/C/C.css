@@ -21,6 +21,7 @@
 }
 .courses-heading p {
   color: #8c919c;
+  text-align: center;
 }
 .courses-card {
   border-radius: 10px;
@@ -161,3 +162,24 @@
     width: 1.5rem;
   }
 }
+@media (max-width: 400px) {
+  .courses {
+  margin-top: 13rem;
+}
+  .upper-card {
+    width: 20rem;
+    height: 15rem;
+  }
+  .lower-card {
+    width: 20rem;
+    height: 13rem;
+    padding: 1rem 1rem;
+  }
+  .lower-card .heading p {
+    font-size: 0.8rem;
+  }
+  .user-details .avatar {
+    width: 1.5rem;
+  }
+}
+

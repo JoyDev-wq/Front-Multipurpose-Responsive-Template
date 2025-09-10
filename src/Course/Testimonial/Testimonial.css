@@ -1,6 +1,8 @@
 .testimonial {
   margin: 5rem 0;
+  overflow: hidden;
 }
+
 
 .upper-testimonial {
   position: relative;
@@ -29,7 +31,7 @@
 }
 .upper-testimonial .comment {
   text-align: center;
-  font-size: clamp(1rem, 1.5rem, 1.7rem);
+  font-size: 1.7rem;
   margin: 0 13%;
 }
 .upper-testimonial .customer {
@@ -74,5 +76,44 @@
   .lower-testimonial {
     margin-top: 6rem;
     gap: 2rem;
+  }
+}
+@media (max-width: 400px) {
+  .upper-testimonial {
+    margin: 0 0;
+    gap: 1rem;
+    overflow:visible;
+
+  }
+  .upper-testimonial .bubble {
+    width: 4rem;
+    top: 3rem;
+    left: 2rem;
+  }
+  .upper-testimonial .dots {
+    bottom: -4rem;
+    right: -3rem;
+    width: 10rem;
+  }
+  .upper-testimonial .face {
+    width: 7rem;
+  }
+  .upper-testimonial .comment {
+    margin: 0 8%;
+  font-size: 1.1rem;
+
+  }
+  .upper-testimonial .customer h2{
+    font-size: 1.3rem;
+}
+  .upper-testimonial .customer p{
+    font-size: 0.8rem;
+}
+  .lower-testimonial {
+    margin-top: 6rem;
+    gap: 1rem;
+  }
+  .lower-testimonial img{
+    width: 5rem;
   }
 }

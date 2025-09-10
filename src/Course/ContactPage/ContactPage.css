@@ -13,10 +13,13 @@
   flex-direction: column;
   gap: 0.5rem;
 }
+.contact-page-left .upper-heading {
+  font-size: 2rem;
+}
 .learn-more {
   margin-top: 2rem;
 }
-.learn-more .heading {
+.learn-more .lower-heading {
   margin-bottom: 0.5rem;
 }
 .learn-more ul {
@@ -274,4 +277,70 @@
     width: 85%;
     padding: 0 0;
   }
+}
+
+@media (max-width: 400px) {
+  .contact-page-left {
+    width: 22rem;
+    /* background-color: red; */
+    padding:0 0;
+    gap: 0.5rem;
+  }
+  .contact-page-left .upper-heading {
+    font-size: 1.3rem;
+  }
+  .contact-page-left .para {
+    font-size: 0.8rem;
+    margin-right: 1rem;
+  }
+  .learn-more .heading {
+    margin-bottom: 0.5rem;
+  }
+  .learn-more ul li {
+    font-size: 0.8rem;
+    gap: 0.5rem;
+  }
+  .contact-page-right {
+    height: 30rem;
+    width: 21rem;
+    margin-bottom: 5rem;
+  }
+  .form .first-name,
+  .last-name {
+    width: 90%;
+  }
+  .form .first-name label,
+  .last-name label {
+    font-size: 0.8rem;
+  }
+  .form .first-name input,
+  .last-name input {
+    font-size: 0.8rem;
+  }
+  .form .password label,
+  .con-password label {
+    font-size: 0.8rem;
+  }
+  .form .password input,
+  .con-password input {
+    font-size: 0.8rem;
+  }
+  .form .email label {
+    font-size: 0.8rem;
+  }
+  .form .email input {
+    font-size: 0.8rem;
+  }
+  .form .password,
+  .con-password {
+    width: 90%;
+  }
+  .form .email {
+    width: 80%;
+  }
+  .sign-up button {
+  padding: 0.5rem 0.5rem;
+  font-size: 0.8rem;
+
+}
 }

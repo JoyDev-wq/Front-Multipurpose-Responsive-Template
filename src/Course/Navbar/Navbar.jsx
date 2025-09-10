@@ -29,7 +29,7 @@ const CoursesNavbar = () => {
   return (
     <div className="course-navbar">
       <div className="nav-links">
-        <img src={font_logo} alt="" onClick={()=>Navigate("/")}/>
+        <img src={font_logo} className="logo" alt="" onClick={()=>Navigate("/")}/>
 
         <div className="small-nav">
           <p className="links">Home</p>

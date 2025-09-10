@@ -10,8 +10,6 @@ import layar from "../../assets/Testimonials/layar-dark.svg";
 import fitbit from "../../assets/Testimonials/fitbit-dark.svg";
 
 
-
-
 const Testimonial = () => {
   return (
     <div className="testimonial">

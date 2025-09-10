@@ -85,7 +85,7 @@
     font-size: 1.2rem;
   }
   .program-content .heading a {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   .program {
     margin-top: 2rem;
@@ -104,5 +104,27 @@
   }
   .program-cards .read-now {
     font-size: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .program-content .heading {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .program-content .heading h1 {
+    width: 100%;
+  }
+  .program-content .heading a {
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .program {
+    margin-top: 3rem;
+    padding:0 1rem;
+  }
+  .program-cards .read-now {
+    font-size: 0.8rem;
+    font-weight: 500;
   }
 }
